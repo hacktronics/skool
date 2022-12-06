@@ -1,0 +1,26 @@
+/*----------
+
+22. shop style
+
+----------*/
+
+@use "../abstract" as *;
+
+.package {
+	li {
+		list-style-type: decimal;
+		margin-left: 2rem;
+	}
+}
+
+.feature {
+	li {
+		list-style-type: disc;
+		margin-left: 2rem;
+	}
+}
+
+.em {
+	font-style: normal;
+	font-weight: 600;
+}

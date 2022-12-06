@@ -1,0 +1,28 @@
+/*----------
+
+22. shop style
+
+----------*/
+
+@use "../abstract" as *;
+
+.devices-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cont-learning-course {
+	font-weight: 600;
+}
+
+.cont-learning-lesson {
+	font-style: italic;
+	margin-left: 0.3rem;
+}
+
+.cont-learning-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
